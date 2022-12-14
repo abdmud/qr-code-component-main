@@ -1,0 +1,63 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap');
+
+body {
+    background-color: #d6e2f0;
+}
+
+.card {
+    background-color: #ffffff;
+    text-align: center;
+    width: 400px;
+    margin: 5% 35% 5%;
+    padding: 1.5% 1% 1.5% 1%;
+    border-radius: 5%;
+}
+
+img {
+    border-radius: 5%;
+    width: 400px;
+}
+.card-title {
+    color: #1f3251;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-text {
+    color: 	#7b879d;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/** Mobile **/
+@media only screen and (max-width: 375px) {
+    .card {
+        width: 330px;
+        margin-left: 3%;
+        margin-top: 10%;
+    }
+    
+    img {
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 290px;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 9%;
+        border-bottom-right-radius: 9%;
+    }
+
+    .card-title {
+        font-size: 16px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .card-text {
+        font-size: 12px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }
